@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  height: 100px;
+  background-color: red;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  justify-items: flex-end;
+  align-items: center;
+}
+
+section {
+  padding: 20px;
+}
+
+section h2 {
+  text-align: center;
+}
+
+.project-card {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
