@@ -1,11 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   text-align: center;
   height: 100px;
-  background-color: red;
+  background-color: black;
   padding: 20px;
+  color: white;
 }
 
 nav {
@@ -15,8 +20,18 @@ nav {
   align-items: center;
 }
 
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
 section {
   padding: 20px;
+  background-color: #dedede;
+}
+
+#projects {
+  background-color: white;
 }
 
 section h2 {
@@ -30,4 +45,16 @@ section h2 {
 form {
   display: flex;
   flex-direction: column;
+}
+
+section ul {
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style: none;
+  align-items: center;
+}
+
+section li {
+  padding: 10px;
 }
