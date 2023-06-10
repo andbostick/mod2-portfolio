@@ -39,6 +39,7 @@ section {
 }
 
 section h2 {
+  font-size: 35px;
   text-align: center;
   padding-bottom: 40px;
 }
@@ -51,6 +52,16 @@ section h2 {
 .project-card:hover {
   transform: scale(1.2);
   text-decoration: underline;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+}
+
+#about div {
+  display: flex;
+  flex-direction: column;
 }
 
 p {
@@ -67,6 +78,13 @@ section ul {
 
 section li {
   padding: 10px;
+}
+
+.avatar {
+  max-width: 100%;
+  height: 350px;
+  border-radius: 50%;
+  align-self: center;
 }
 
 @media screen and (min-width: 820px) {
@@ -89,5 +107,16 @@ section li {
 
   nav {
     justify-content: space-around;
+  }
+
+  #about div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: justify;
+  }
+
+  #about img {
+    padding: 0 20px;
   }
 }
